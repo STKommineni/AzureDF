@@ -1,0 +1,19 @@
+{
+	"name": "CovidSource",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "CovidData",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "coronavirus/"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

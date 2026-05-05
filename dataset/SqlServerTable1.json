@@ -1,0 +1,76 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerLocal",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "ID",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Title",
+				"type": "nvarchar"
+			},
+			{
+				"name": "ReleaseDate",
+				"type": "datetime",
+				"precision": 23,
+				"scale": 3
+			},
+			{
+				"name": "Director",
+				"type": "nvarchar"
+			},
+			{
+				"name": "RunTimeMinutes",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "Country",
+				"type": "nvarchar"
+			},
+			{
+				"name": "GenreID",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "CertificateID",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "BudgetDollars",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "BoxOfficeDollars",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "OscarNominations",
+				"type": "float",
+				"precision": 15
+			},
+			{
+				"name": "OscarWins",
+				"type": "float",
+				"precision": 15
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Movies"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
