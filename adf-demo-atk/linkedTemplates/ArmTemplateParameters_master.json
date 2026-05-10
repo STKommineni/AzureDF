@@ -1,0 +1,84 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-demo-atk"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"CovidDestination_accountKey": {
+			"value": ""
+		},
+		"DataLakePractise_accountKey": {
+			"value": ""
+		},
+		"DestinationDataLake_accountKey": {
+			"value": ""
+		},
+		"Destination_Data_Lake_16012025_accountKey": {
+			"value": ""
+		},
+		"SamplePractise_connectionString": {
+			"value": ""
+		},
+		"Source_Data_Lake_accountKey": {
+			"value": ""
+		},
+		"SqlServerLocal_password": {
+			"value": ""
+		},
+		"SqlServerPractise_password": {
+			"value": ""
+		},
+		"CovidData_properties_typeProperties_url": {
+			"value": "https://www.worldometers.info/coronavirus/"
+		},
+		"CovidDestination_properties_typeProperties_url": {
+			"value": "https://oractisestorage.dfs.core.windows.net/"
+		},
+		"DataLakePractise_properties_typeProperties_url": {
+			"value": "https://oractisestorage.dfs.core.windows.net/"
+		},
+		"DestinationDataLake_properties_typeProperties_url": {
+			"value": "https://oractisestorage.dfs.core.windows.net/"
+		},
+		"Destination_Data_Lake_16012025_properties_typeProperties_url": {
+			"value": "https://oractisestorage.dfs.core.windows.net/"
+		},
+		"Source_Data_Lake_properties_typeProperties_url": {
+			"value": "https://saiadlsgen2account.dfs.core.windows.net/"
+		},
+		"SqlServerLocal_properties_typeProperties_server": {
+			"value": "DESKTOP-JA3KIPJ"
+		},
+		"SqlServerLocal_properties_typeProperties_database": {
+			"value": "MASTER"
+		},
+		"SqlServerLocal_properties_typeProperties_userName": {
+			"value": "sai"
+		},
+		"SqlServerPractise_properties_typeProperties_server": {
+			"value": "DESKTOP-JA3KIPJ"
+		},
+		"SqlServerPractise_properties_typeProperties_database": {
+			"value": "master"
+		},
+		"SqlServerPractise_properties_typeProperties_userName": {
+			"value": "sai"
+		},
+		"Blob_160125_properties_CopyData_Blob_160125_parameters_file_name": {
+			"value": "@triggerBody().fileName"
+		},
+		"Blob_160125_properties_typeProperties_scope": {
+			"value": "/subscriptions/4a169e40-c7e5-4ef1-b0f0-c8300aa0f51d/resourceGroups/PRACTISE/providers/Microsoft.Storage/storageAccounts/saiadlsgen2account"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
